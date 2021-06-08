@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+body{
+    margin: 0;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: transparent;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    color: tomato;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    background-image: url('./images/mock-up-wall-children-s-room-with-chair-light-pink-color-wall-background-3d-rendering.jpg');
+    background-size: cover;
+    height: 1000px;
+    margin-top: -22px;
+    text-align: center;
+}
+
+
+.top-wrapper h1{
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+.top-wrapper h2{
+    font-size: 50px;
+    margin-top: -30px;
+}
+
+.top-wrapper p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn-wrapper{
+    margin-top: 100px;
+}
+
+.message {
+    padding: 25px 50px;
+    background-color: #dddc8f;
+    cursor: pointer;
+    box-shadow: 0 7px #808862;
+    font-size: 20px;
+  }
+
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
